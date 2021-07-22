@@ -12,6 +12,7 @@ Since the dummy columns are binary variables, I decided to impute the dummy colu
 On the other hand, for the numerical columns, I applied random forest to impute the missing values. 
 
 
+
 | Column names | Description | 
 | ------------ | ----------- |
 sdq| Severe Delinquency
