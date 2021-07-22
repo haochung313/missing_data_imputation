@@ -1,7 +1,9 @@
 # missing_data_imputation
 Impute missing data by Multiple Imputation by Chained Equations ( MICE )
 
-This is a mortgate loan dataset contains 8000 observations and 16 columns. 
+**Overview:**
+This is a mortgate loan dataset that has 8000 observations and 16 columns. 
+Some of the columns contains missing data and the goal of this project is to implement MICE to impute the missing data. 
 
 | Column names | Description | 
 | ------------ | ----------- |
