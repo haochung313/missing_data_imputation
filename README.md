@@ -1,10 +1,12 @@
 # missing_data_imputation
 Impute missing data by Multiple Imputation by Chained Equations ( MICE )
 
-The dataset contains 8000 observations of mortgate loan. 
+This is a mortgate loan dataset contains 8000 observations and 16 columns. 
 
-Feature names:
-- ltv: Loan to Value Ratio
+| Column names | Description | 
+| ------------ | ----------- |
+sdq| Severe Delinquency
+ltv: Loan to Value Ratio
 - intrt: Interest Rate on the Mortgage
 - bal: Balance of the Loan
 - lien: Whether it is a first or second lien on the home
