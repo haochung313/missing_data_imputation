@@ -4,7 +4,12 @@ Impute missing data by Multiple Imputation by Chained Equations ( MICE )
 # Overview:
 
 This is a mortgate loan dataset that has 8000 observations and 16 columns. 
-Some of the columns contains missing data and the goal of this project is to implement MICE to impute the missing data. 
+There are some missing data exists in the features of the dastaset, and the goal of this project is to the missing data. 
+The features of the dataset contains both numerical and dummy variables; therefore, simply replacing the mean to the missing values may not be a ideal solution. 
+MICE package in R provides several different types of algorithms to impute the missing data. 
+Since the dummy columns are binary variables, I decided to impute the dummy columns with logistic regression.
+On the other hand, for the numerical columns, I applied random forest to impute the missing values. 
+
 
 | Column names | Description | 
 | ------------ | ----------- |
