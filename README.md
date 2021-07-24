@@ -12,11 +12,12 @@ Since the dummy columns are binary variables, I decided to impute the dummy colu
 On the other hand, for the numerical columns, I applied random forest to impute the missing values. 
 
 
- Markup : - Strength
-              - 
-                
-          - Limitations:
-          - Assumptions:
+- Strength
+  - 
+- Limitations:
+  - 
+- Assumptions:
+  - 
 
 
 
