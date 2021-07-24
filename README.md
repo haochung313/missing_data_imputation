@@ -11,6 +11,11 @@ It allows user to choose which algorithms to use for each column.
 Since the dummy columns are binary variables, I decided to impute the dummy columns with logistic regression.
 On the other hand, for the numerical columns, I applied random forest to impute the missing values. 
 
+- Strengths:
+  -  
+- Limitations:
+- Assumptions:
+
 
 
 | Column names | Description | 
