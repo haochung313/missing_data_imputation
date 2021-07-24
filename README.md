@@ -17,7 +17,7 @@ On the other hand, for the numerical columns, I applied random forest to impute 
 - Limitations:
   - 
 - Assumptions:
-  - 
+  - Data are missing at random
 
 
 
