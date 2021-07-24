@@ -12,6 +12,7 @@ Since the dummy columns are binary variables, I decided to impute the dummy colu
 On the other hand, for the numerical columns, I applied random forest to impute the missing values. 
 
 
+# MICE
 - Strengths:
   - Using model based approach to impute missing data. Unlike replacing missing values with mean or mode of a single column, MICE utilizes other features in the dataset to predict the missing values. 
 - Weaknesses:
